@@ -20,7 +20,9 @@ client.connect((err) => {
     if (err) {
       return console.error("error running query", err);
     }
-    console.log(result.rows); //output: 1
+  result.rows.forEach(function(person){
+    console.log(`${person.first_name}, ${person.last_name}, ${person.birthdate}`);
+  })
     client.end();
   });
 });

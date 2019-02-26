@@ -1,0 +1,23 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_person.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanthakania/node-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samanthakania/node-postgres/issues"
+  },
+  "homepage": "https://github.com/samanthakania/node-postgres#readme",
+  "dependencies": {
+    "knex": "^0.16.3",
+    "pg": "^7.8.1"
+  }
+}
