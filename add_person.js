@@ -21,6 +21,6 @@ knex('famous_people')
     first_name: firstName,
     last_name: lastName,
     birthdate: birthday
-   }]).finally(=>{
-    kinex.destroy()
-   });
+   }]);
+
+knex.destroy();
